@@ -7,10 +7,10 @@
     <title>DOM Manipulation</title>
 </head>
 <body>
-    <h1 class="green">Basic DOM Manipulation</h1>
-    <p class="paragraph">This is a paragraph with class</p>
-    <p id="paragraph">This is a paragraph with id</p>
-    <input type="text" placeholder="Type something">
+    <h1>Basic DOM Manipulation</h1>
+    <input id="calc1" type="text" placeholder="Type something here">
+    <input onchange="console.log('Input change')" id="calc2" type="text" placeholder="Type something here">
+    <button id="btnCalc" onclick="onClick()">Calc</button>
     <script src="./main.js"></script>
 </body>
 </html>
